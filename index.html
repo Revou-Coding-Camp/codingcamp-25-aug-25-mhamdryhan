@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Portfolio Website</title>
+  <link rel="stylesheet" href="css/style.css" />
+</head>
+<body>
+  <!-- Navbar -->
+  <header class="navbar">
+    <div class="logo">MyPortfolio</div>
+    <nav>
+      <ul>
+        <li><a href="#home">Home</a></li>
+        <li><a href="#profile">Our Profile</a></li>
+        <li><a href="#message">Message Us</a></li>
+      </ul>
+    </nav>
+  </header>
+
+<!-- Hero Section -->
+<section id="home" class="hero reveal">
+  <h1 id="welcome">Hi, Welcome to Website</h1>
+  <p>Explore more with a clean and responsive design</p>
+</section>
+
+<!-- Profile Section -->
+<section id="profile" class="profile reveal">
+  <h2>Our Headquarters</h2>
+  <div class="locations">
+    <div class="location-card">Jakarta</div>
+    <div class="location-card">Bandung</div>
+    <div class="location-card">Surabaya</div>
+  </div>
+</section>
+
+<!-- Message Form -->
+<section id="message" class="contact reveal">
+  <h2>Message Us</h2>
+  <form id="contactForm">
+    <input type="text" id="name" placeholder="Name" required />
+    <input type="email" id="email" placeholder="Email" required />
+    <input type="tel" id="phone" placeholder="Phone Number" required />
+    <textarea id="messageInput" placeholder="Message" required></textarea>
+    <button type="submit">Submit</button>
+  </form>
+  <div id="result"></div>
+</section>
+
+  <footer>
+    <p>Created By Rayhan</p>
+  </footer>
+
+  <script src="js/script.js"></script>
+</body>
+</html>
