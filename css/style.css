@@ -76,7 +76,7 @@ html {
     text-align: center;
     color: #fff;
     position: relative;
-    background: url('/images/banner.jpg') center center / cover no-repeat;
+    background: url('images/banner.jpg') center center / cover no-repeat;
     background-attachment: fixed;
     animation: fadeIn 1.2s ease-in;
 }
@@ -128,7 +128,7 @@ html {
     max-width: 800px;
     height: 300px;
     margin: 30px auto;
-    background: url('/images/profile.JPG') center center / cover no-repeat;
+    background: url('images/profile.JPG') center center / cover no-repeat;
     border-radius: 12px;
     box-shadow: 0 8px 16px rgba(0, 0, 0, 0.1);
 }
