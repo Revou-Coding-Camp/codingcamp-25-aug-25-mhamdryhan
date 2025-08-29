@@ -18,7 +18,7 @@ body {
 
 html {
     scroll-behavior: smooth;
-    scroll-padding-top: 43px;
+    scroll-padding-top: 75px;
 }
 
 .navbar {
@@ -76,7 +76,8 @@ html {
     text-align: center;
     color: #fff;
     position: relative;
-    background: url('images/home.jpg') center center / cover no-repeat;
+    background-position: center center;
+    background-size: cover;
     background-attachment: fixed;
     animation: fadeIn 1.2s ease-in;
 }
@@ -128,7 +129,9 @@ html {
     max-width: 800px;
     height: 300px;
     margin: 30px auto;
-    background: url('images/profile.jpg') center center / cover no-repeat;
+    background-position: center center;
+    background-size: cover;
+    background-repeat: no-repeat;
     border-radius: 12px;
     box-shadow: 0 8px 16px rgba(0, 0, 0, 0.1);
 }
@@ -305,13 +308,11 @@ footer {
 
 .reveal {
     opacity: 0;
-    transform: translateY(50px);
     transition: all 0.9s ease;
 }
 
 .reveal.active {
     opacity: 1;
-    transform: translateY(0);
 }
 
 @media (max-width: 900px) {
